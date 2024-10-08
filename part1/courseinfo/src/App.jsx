@@ -1,5 +1,5 @@
 import Header from "./component/Header";
-import Content from "./component/Content";
+import Part from "./component/Part";
 import Total from "./component/Total";
 
 const App = () => {
@@ -14,9 +14,9 @@ const App = () => {
   return (
     <div>
       <Header course={course}></Header>
-      <Content part={part1} exercises={exercises1}></Content>
-      <Content part={part2} exercises={exercises2}></Content>
-      <Content part={part3} exercises={exercises3}></Content>
+      <Part part={part1} exercises={exercises1}></Part>
+      <Part part={part2} exercises={exercises2}></Part>
+      <Part part={part3} exercises={exercises3}></Part>
       <Total
         exercises1={exercises1}
         exercises2={exercises2}
