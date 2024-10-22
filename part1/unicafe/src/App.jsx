@@ -1,9 +1,11 @@
 import { useState } from "react";
 
 const StatisticLine = ({ text, value }) => {
-  <p>
-    {text}:{value}
-  </p>;
+  return (
+    <p>
+      {text}:{value}
+    </p>
+  );
 };
 
 const Statistics = ({ good, bad, neutral }) => {
